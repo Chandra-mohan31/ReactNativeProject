@@ -109,8 +109,13 @@ const Tictactoe = () => {
           itemArray[4] === itemArray[6]
         ) {
           setWinMessage(`${itemArray[2]} won`);
+        }else if(itemArray.every( v => v !=='empty' )){
+          setWinMessage("Draw");
         }
       };
+
+
+      
 
     return (
         <Container style={{backgroundColor:"#333945",padding:5}}>

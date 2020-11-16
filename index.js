@@ -10,5 +10,6 @@ import SpanishNum from "./SpanishNum";
 import CurrencyApp from "./CurrencyApp";
 import cameraApp from "./cameraApp";
 import Tictactoe from "./Tictactoe";
+import NetfilxStore from "./NetflixStore";
 
 AppRegistry.registerComponent(appName, () =>Tictactoe);
